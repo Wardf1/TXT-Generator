@@ -31,7 +31,7 @@ https://github.com/Wardf1/TXT-Generator/blob/main/pokemon_names.json
 
 ## 📁 Struktura wejściowa
 
-Pliki *.png powinny mieć format dla txt i txt-shiny: ``<pokemon>-<forma>.png`` oraz dla sprite i sprite-shiny: ``<dex-number-###>-<forma>.png``. Jeśli jest to forma bazowa to nie trzeba stosować ``-<forma>`` w nazwie pliku graficznego.</br>
+Pliki *.png powinny mieć format dla txt i txt-shiny: ``<pokemon>-<forma>.png`` oraz dla sprite i sprite-shiny: ``<dex-number-###>-<forma>.png``. Jeśli jest to forma bazowa to nie trzeba stosować ``-<forma>`` w nazwie pliku graficznego.</br></br>
 Upewnij się, że masz folder `images/` z poniższymi podfolderami:
 
 ```
