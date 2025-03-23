@@ -7,10 +7,10 @@ Skrypt do przetwarzania grafik Pokémonów przy użyciu stylizowanych presetów 
 - `txt-shiny.png` z folderu `pokemon-shiny/`
 - `sprite.png` z folderu `sprite/`
 - `sprite-shiny.png` z folderu `sprite-shiny/`
----
+```
 Każdy preset modyfikuje barwę (Hue), jasność (Lightness) i nasycenie (Saturation) obrazu, tworząc unikalny efekt stylistyczny.
 
-
+---
 
 ## 🧰 Wymagania
 
