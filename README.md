@@ -45,7 +45,7 @@ images/
 1. Uruchom skrypt:
 
 ```bash
-python stylizer.py
+python txt-generator.py
 ```
 
 2. Wybierz preset kolorystyczny z listy:
