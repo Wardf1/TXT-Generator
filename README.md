@@ -40,7 +40,7 @@ images/
 ├── sprite/               # źródła dla sprite.png (np. 025-cap.png)
 ├── sprite-shiny/         # źródła dla sprite-shiny.png
 ```
-
+Pliki *.png powinny mieć format dla txt i txt-shiny: ``<pokemon>-<forma>.png`` oraz dla sprite i sprite-shiny: ``<dex-number-###>-<forma>.png``. Jeśli jest to forma bazowa to nie trzeba stosować ``-<forma>`` w nazwie pliku graficznego.
 ---
 
 ## 🚀 Uruchomienie
