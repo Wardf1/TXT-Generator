@@ -1,7 +1,7 @@
 
 # 🎨 Pokemon Texture Generator
 
-Skrypt do przetwarzania grafik Pokémonów przy użyciu stylizowanych presetów kolorystycznych. Obsługuje jednocześnie:
+Skrypt do przetwarzania grafik Pokémonów przy użyciu stylizowanych presetów kolorystycznych dla Pixelmon Generations. Obsługuje jednocześnie:
 ```markdown
 - `txt.png` z folderu `pokemon/`
 - `txt-shiny.png` z folderu `pokemon-shiny/`
