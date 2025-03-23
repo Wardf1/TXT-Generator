@@ -23,7 +23,10 @@ Każdy preset modyfikuje barwę (Hue), jasność (Lightness) i nasycenie (Satura
   ```bash
   pip install requests
   ```
-
+- Plik Pokemon Database Json
+```html
+https://github.com/Wardf1/TXT-Generator/blob/main/pokemon_names.json
+```
 ---
 
 ## 📁 Struktura wejściowa
