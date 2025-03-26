@@ -41,6 +41,7 @@ images/
 ├── sprite/               # źródła dla sprite.png (np. 025-cap.png)
 ├── sprite-shiny/         # źródła dla sprite-shiny.png
 ```
+Gotowa biblioteka TXT - [Pobierz z LimeWire](https://limewire.com/d/3cCxb#5OI0bhsxCG)
 
 ---
 
