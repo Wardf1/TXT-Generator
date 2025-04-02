@@ -83,20 +83,32 @@ images/formy-lodowe/<nazwa-pokemona-forma>/
 
 ## 🧪 Dostępne formy kolorystyczne
 
-| Preset                 | Styl                                                            |
-|------------------------|-----------------------------------------------------------------|
-| **Forma Letnia**           | Ciepłe, jasne kolory z podbitą nasyceniem                      |
-| **Forma Nocna**            | Chłodne, przyciemnione barwy                                   |
-| **Forma Jesienna**         | Żółto-pomarańczowe tony, lekko stonowane                       |
-| **Forma Księżycowa**       | Fioletowo-niebieska tonacja, wysoka jasność                    |
-| **Forma Tropikalna**       | Zielono-turkusowy filtr, bardzo żywa kolorystyka               |
-| **Forma Wiosenna**         | Pastelowe róże, średnia jasność, niska nasycenie               |
-| **Forma Cieniowana**       | Mroczne fiolety i zielenie, średnia saturacja                  |
-| **Forma Niebieska Mgła**   | Błękitno-biała mgła, niskie nasycenie, wysoka jasność          |
-| **Forma Upiorna**          | Zgaszone chłodne barwy z niską nasyceniem                      |
-| **Forma Cukierkowa**       | Jaskrawe magenty i róże, wysoka jasność                        |
-| **Forma Dzika**            | Ekstremalnie nasycone kolory, przesunięty hue                  |
-| **Forma Lodowa**           | Jasny chłodny odcień błękitu z naturalną jasnością             |
+| Preset                 | Styl                                                                 | Czy jest na serwerze?     |
+|------------------------|----------------------------------------------------------------------|---------------------------|
+| **Forma Letnia**           | Ciepłe, jasne kolory z podbitą nasyceniem                           |                         |
+| **Forma Nocna**            | Chłodne, przyciemnione barwy                                        |                         |
+| **Forma Jesienna**         | Żółto-pomarańczowe tony, lekko stonowane                            |                         |
+| **Forma Księżycowa**       | Fioletowo-niebieska tonacja, wysoka jasność                         |                         |
+| **Forma Tropikalna**       | Zielono-turkusowy filtr, bardzo żywa kolorystyka                    |                         |
+| **Forma Wiosenna**         | Pastelowe róże, średnia jasność, niska nasycenie                    |                         |
+| **Forma Cieniowana**       | Mroczne fiolety i zielenie, średnia saturacja                       |                         |
+| **Forma Niebieska Mgła**   | Błękitno-biała mgła, niskie nasycenie, wysoka jasność               |✅                       |
+| **Forma Upiorna**          | Zgaszone chłodne barwy z niską nasyceniem                           |                         |
+| **Forma Cukierkowa**       | Jaskrawe magenty i róże, wysoka jasność                             |                         |
+| **Forma Dzika**            | Ekstremalnie nasycone kolory, przesunięty hue                       |                         |
+| **Forma Lodowa**           | Jasny chłodny odcień błękitu z naturalną jasnością                  |✅                       |
+| **Forma Toxic**            | Jasnozielono-czarna tonacja, lekko rozjaśniona, umiarkowana siła    |                         |
+| **Forma Radioaktywna**     | Jasna zieleń z wysoką nasyceniem, lekko żarzący efekt               |                         |
+| **Forma Zatruta Mgła**     | Zgniłozielony klimat, przygaszone barwy, mglisty ton                |                         |
+| **Forma Cyberpunk**        | Jaskrawe fiolety i niebiesko-różowe tony, neonowy styl              |                         |
+| **Forma Neonowa**          | Maksymalnie nasycone kolory, imprezowy glow                        |                         |
+| **Forma Pastelowa**        | Bardzo jasne i delikatne kolory, bajkowy klimat                     |                         |
+| **Forma Duchowa**          | Zgaszona jasność, niski kontrast, niematerialna aura               |                         |
+| **Forma Jadowita Noc**     | Ciemna paleta z zielonkawym jadem, mroczna, trująca                |                         |
+| **Forma Technomagiczna**   | Fioletowo-niebieskie światło, wysoka jasność i nasycenie           |                         |
+| **Forma Kryształowa**      | Chłodna jasność z lodowym refleksem, półprzezroczysty efekt         |                         |
+| **Forma Piekielna**        | Agresywny czerwono-pomarańczowy żar, ognisty klimat                 |                         |
+
 
 ---
 
