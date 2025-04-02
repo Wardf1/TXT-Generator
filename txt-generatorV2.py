@@ -25,29 +25,21 @@ def apply_hls_adjustment(image, hue_shift=0.0, lightness_mul=1.0, saturation_mul
 
 # === Presety ===
 PRESETS = [
-    ("Forma Letnia", lambda img: apply_hls_adjustment(img, hue_shift=0.04, lightness_mul=1.1, saturation_mul=1.3)),
-    ("Forma Nocna", lambda img: apply_hls_adjustment(img, hue_shift=0.60, lightness_mul=0.6, saturation_mul=0.6)),
-    ("Forma Jesienna", lambda img: apply_hls_adjustment(img, hue_shift=0.08, lightness_mul=0.9, saturation_mul=0.8)),
-    ("Forma Księżycowa", lambda img: apply_hls_adjustment(img, hue_shift=0.7, lightness_mul=1.2, saturation_mul=0.9)),
-    ("Forma Tropikalna", lambda img: apply_hls_adjustment(img, hue_shift=0.3, lightness_mul=1.1, saturation_mul=1.4)),
-    ("Forma Wiosenna", lambda img: apply_hls_adjustment(img, hue_shift=0.9, lightness_mul=1.0, saturation_mul=0.6)),
-    ("Forma Cieniowana", lambda img: apply_hls_adjustment(img, hue_shift=0.75, lightness_mul=0.7, saturation_mul=1.2)),
-    ("Forma Niebieska Mgła", lambda img: apply_hls_adjustment(img, hue_shift=0.6, lightness_mul=1.3, saturation_mul=0.4)),
-    ("Forma Upiorna", lambda img: apply_hls_adjustment(img, hue_shift=0.66, lightness_mul=0.8, saturation_mul=0.3)),
-    ("Forma Cukierkowa", lambda img: apply_hls_adjustment(img, hue_shift=0.95, lightness_mul=1.2, saturation_mul=1.6)),
-    ("Forma Dzika", lambda img: apply_hls_adjustment(img, hue_shift=0.2, lightness_mul=1.0, saturation_mul=1.8)),
-    ("Forma Lodowa", lambda img: apply_hls_adjustment(img, hue_shift=0.55, lightness_mul=1.3, saturation_mul=1.0)),
-    ("Forma Toxic", lambda img: apply_hls_adjustment(img, hue_shift=0.33, lightness_mul=1.2, saturation_mul=1.0)),
-    ("Forma Radioaktywna", lambda img: apply_hls_adjustment(img, hue_shift=0.33, lightness_mul=1.1, saturation_mul=1.4)),
-    ("Forma Zatruta Mgła", lambda img: apply_hls_adjustment(img, hue_shift=0.25, lightness_mul=0.9, saturation_mul=0.5)),
-    ("Forma Cyberpunk", lambda img: apply_hls_adjustment(img, hue_shift=0.85, lightness_mul=1.2, saturation_mul=1.6)),
-    ("Forma Neonowa", lambda img: apply_hls_adjustment(img, hue_shift=0.1, lightness_mul=1.3, saturation_mul=1.8)),
-    ("Forma Pastelowa", lambda img: apply_hls_adjustment(img, hue_shift=0.05, lightness_mul=1.4, saturation_mul=0.5)),
-    ("Forma Duchowa", lambda img: apply_hls_adjustment(img, hue_shift=0.75, lightness_mul=1.1, saturation_mul=0.3)),
-    ("Forma Jadowita Noc", lambda img: apply_hls_adjustment(img, hue_shift=0.35, lightness_mul=0.7, saturation_mul=0.8)),
-    ("Forma Technomagiczna", lambda img: apply_hls_adjustment(img, hue_shift=0.58, lightness_mul=1.2, saturation_mul=1.3)),
-    ("Forma Kryształowa", lambda img: apply_hls_adjustment(img, hue_shift=0.5, lightness_mul=1.4, saturation_mul=0.7)),
-    ("Forma Piekielna", lambda img: apply_hls_adjustment(img, hue_shift=0.02, lightness_mul=0.9, saturation_mul=1.7))
+    ("Forma Letnia", lambda img: apply_hls_adjustment(img, 0.04, 1.1, 1.3)),
+    ("Forma Jesienna", lambda img: apply_hls_adjustment(img, 0.08, 0.9, 0.8)),
+    ("Forma Księżycowa", lambda img: apply_hls_adjustment(img, 0.7, 1.2, 0.9)),
+    ("Forma Tropikalna", lambda img: apply_hls_adjustment(img, 0.3, 1.1, 1.4)),
+    ("Forma Cieniowana", lambda img: apply_hls_adjustment(img, 0.75, 0.7, 1.2)),
+    ("Forma Cukierkowa", lambda img: apply_hls_adjustment(img, 0.95, 1.2, 1.6)),
+    ("Forma Dzika", lambda img: apply_hls_adjustment(img, 0.2, 1.0, 1.8)),
+    ("Forma Lodowa", lambda img: apply_hls_adjustment(img, 0.55, 1.3, 1.0)),
+    ("Forma Toxic", lambda img: apply_hls_adjustment(img, 0.45, 1.2, 1.0)),
+    ("Forma Radioaktywna", lambda img: apply_hls_adjustment(img, 0.33, 1.1, 1.4)),
+    ("Forma Cyberpunk", lambda img: apply_hls_adjustment(img, 0.85, 1.2, 1.6)),
+    ("Forma Neonowa", lambda img: apply_hls_adjustment(img, 0.1, 1.3, 1.8)),
+    ("Forma Technomagiczna", lambda img: apply_hls_adjustment(img, 0.58, 1.2, 1.3)),
+    ("Forma Kryształowa", lambda img: apply_hls_adjustment(img, 0.5, 1.4, 0.7)),
+    ("Forma Piekielna", lambda img: apply_hls_adjustment(img, 0.02, 0.9, 1.7))
 ]
 
 def fetch_pokemon_names():
@@ -91,21 +83,25 @@ def process_images(input_folder, process_fn, output_folder):
             file_path = os.path.join(folder, filename)
             name, _ = os.path.splitext(filename)
 
-            match = re.match(r"^(\d{3})(?:-(.*))?$", name)
-            if not match:
-                print(f"⏭️ Pominięto (brak numeru): {filename}")
-                skipped.append(filename)
-                continue
+            if key in ("txt", "txt-shiny"):
+                final_name = name.lower()
+            else:
+                match = re.match(r"^(\d{3})(?:-(.*))?$", name)
+                if not match:
+                    print(f"⏭️ Pominięto (brak numeru): {filename}")
+                    skipped.append(filename)
+                    continue
 
-            number = match.group(1)
-            suffix = match.group(2) if match.group(2) else ""
-            poke_name = mapping.get(number)
-            if not poke_name:
-                print(f"⚠️ Brak mapowania dla numeru {number}")
-                skipped.append(filename)
-                continue
+                number = match.group(1)
+                suffix = match.group(2) if match.group(2) else ""
+                poke_name = mapping.get(number)
+                if not poke_name:
+                    print(f"⚠️ Brak mapowania dla numeru {number}")
+                    skipped.append(filename)
+                    continue
 
-            final_name = f"{poke_name.lower()}-{suffix}" if suffix else poke_name.lower()
+                final_name = f"{poke_name.lower()}-{suffix}" if suffix else poke_name.lower()
+
             target_dir = os.path.join(output_folder, final_name)
             os.makedirs(target_dir, exist_ok=True)
             output_file = os.path.join(target_dir, f"{key}.png")
