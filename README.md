@@ -97,7 +97,7 @@ images/formy-lodowe/<nazwa-pokemona-forma>/
 | **Forma Cukierkowa**       | Jaskrawe magenty i róże, wysoka jasność                             |                         |
 | **Forma Dzika**            | Ekstremalnie nasycone kolory, przesunięty hue                       |                         |
 | **Forma Lodowa**           | Jasny chłodny odcień błękitu z naturalną jasnością                  |✅                       |
-| **Forma Toxic**            | Jasnozielono-czarna tonacja, lekko rozjaśniona, umiarkowana siła    |                         |
+| **Forma Toxic**            | Jasnozielono-czarna tonacja, lekko rozjaśniona, umiarkowana siła    |✅                       |
 | **Forma Radioaktywna**     | Jasna zieleń z wysoką nasyceniem, lekko żarzący efekt               |                         |
 | **Forma Zatruta Mgła**     | Zgniłozielony klimat, przygaszone barwy, mglisty ton                |                         |
 | **Forma Cyberpunk**        | Jaskrawe fiolety i niebiesko-różowe tony, neonowy styl              |                         |
