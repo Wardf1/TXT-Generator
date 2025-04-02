@@ -86,25 +86,17 @@ images/formy-lodowe/<nazwa-pokemona-forma>/
 | Preset                   | Opis techniczny                                                                                             | Czy jest na serwerze? |
 |--------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------|
 | **Forma Letnia**         | Niewielkie przesunięcie odcienia (Hue +0.04), delikatne rozjaśnienie (x1.1), wyraźnie zwiększona intensywność (x1.3)       |                       |
-| **Forma Nocna**          | Znaczny przesuw odcienia (Hue +0.60), silne przyciemnienie (x0.6), obniżona intensywność kolorów (x0.6)                  |                       |
 | **Forma Jesienna**       | Małe przesunięcie odcienia (Hue +0.08), lekkie przyciemnienie (x0.9), częściowe odbarwienie (x0.8)                        |                       |
 | **Forma Księżycowa**     | Duży przesuw odcienia (Hue +0.70), wyraźne rozjaśnienie (x1.2), lekka redukcja nasycenia (x0.9)                            |                       |
 | **Forma Tropikalna**     | Średni przesuw odcienia (Hue +0.3), rozjaśnienie (x1.1), silne podbicie nasycenia (x1.4)                                  |                       |
-| **Forma Wiosenna**       | Znaczny przesuw (Hue +0.9), brak zmiany jasności, niska nasycenie (x0.6)                                              |                       |
 | **Forma Cieniowana**     | Znaczny przesuw (Hue +0.75), ciemniejsze kolory (x0.7), zwiększona intensywność (x1.2)                                    |                       |
-| **Forma Niebieska Mgła** | Przesunięcie do chłodniejszego odcienia (Hue +0.6), duże rozjaśnienie (x1.3), mocne osłabienie koloru (x0.4)               | ✅                    |
-| **Forma Upiorna**        | Chłodny przesuw (Hue +0.66), lekkie przyciemnienie (x0.8), bardzo niskie nasycenie (x0.3)                                 |                       |
 | **Forma Cukierkowa**     | Przesunięcie w górę (Hue +0.95), rozjaśnienie (x1.2), bardzo wysokie nasycenie (x1.6)                                   |                       |
 | **Forma Dzika**          | Średni przesuw (Hue +0.2), brak zmiany jasności, ekstremalne nasycenie (x1.8)                                          |                       |
 | **Forma Lodowa**         | Chłodny przesuw (Hue +0.55), silne rozjaśnienie (x1.3), bez zmiany nasycenia                                          | ✅                    |
 | **Forma Toxic**          | Przesunięcie w stronę zieleni (Hue +0.33), rozjaśnienie (x1.2), brak zmiany intensywności                               | ✅                    |
 | **Forma Radioaktywna**   | Podobny przesuw jak wyżej (Hue +0.33), lekkie rozjaśnienie (x1.1), silne nasycenie (x1.4)                                |                       |
-| **Forma Zatruta Mgła**   | Lekki przesuw (Hue +0.25), lekkie przyciemnienie (x0.9), niskie nasycenie (x0.5)                                       |                       |
 | **Forma Cyberpunk**      | Silny przesuw (Hue +0.85), rozjaśnienie (x1.2), bardzo wysokie nasycenie (x1.6)                                        |                       |
 | **Forma Neonowa**        | Lekki przesuw (Hue +0.1), bardzo silne rozjaśnienie (x1.3), maksymalne nasycenie (x1.8)                                |                       |
-| **Forma Pastelowa**      | Niewielki przesuw (Hue +0.05), bardzo wysokie rozjaśnienie (x1.4), bardzo niskie nasycenie (x0.5)                        |                       |
-| **Forma Duchowa**        | Przesuw (Hue +0.75), lekkie rozjaśnienie (x1.1), bardzo słabe kolory (x0.3)                                           |                       |
-| **Forma Jadowita Noc**   | Przesunięcie ku zieleniom (Hue +0.35), przyciemnienie (x0.7), lekka redukcja nasycenia (x0.8)                           |                       |
 | **Forma Technomagiczna** | Przesuw (Hue +0.58), rozjaśnienie (x1.2), podbite kolory (x1.3)                                                        |                       |
 | **Forma Kryształowa**    | Przesuw do czystego niebieskiego (Hue +0.5), bardzo silne rozjaśnienie (x1.4), obniżone nasycenie (x0.7)                 |                       |
 | **Forma Piekielna**      | Bardzo lekki przesuw (Hue +0.02), lekkie przyciemnienie (x0.9), bardzo wysokie nasycenie (x1.7)                         |                       |
